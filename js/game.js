@@ -9,7 +9,6 @@ const overlay = document.getElementById("overlay");
 const msgBox = document.getElementById("msg");
 const startBtn = document.getElementById("startBtn");
 
-// 테스트2
 let santa = { x: canvas.width/2, y: 40, width: 40, height: 40, speed: 6 };
 let gifts = [];
 let chimneys = [];
