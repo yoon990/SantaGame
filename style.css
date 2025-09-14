@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #003366, #000);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  #score, #lives {
+    font-size: 1.2rem;
+    margin: 5px 0;
+  }
+  
+  .game-area {
+    position: relative;
+    margin: 20px auto;
+    width: 400px;
+    height: 600px;
+    border: 3px solid white;
+    background: url("https://i.ibb.co/3Wp9mNk/snow-bg.png") repeat;
+    overflow: hidden;
+  }
+  
+  #santa {
+    position: absolute;
+    bottom: 10px;
+    left: 180px;
+    width: 50px;
+    height: 50px;
+    background: url("https://cdn-icons-png.flaticon.com/512/3655/3655337.png") no-repeat center/contain;
+  }
+  
+  .gift {
+    position: absolute;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    background: url("https://cdn-icons-png.flaticon.com/512/2541/2541988.png") no-repeat center/contain;
+  }
+  
+  button {
+    background: #fff;
+    color: #c62828;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #ffcdd2;
+  }
+  

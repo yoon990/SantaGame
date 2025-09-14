@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santa Gift Delivery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="gameUI">
+    <div>점수: <span id="score">0</span></div>
+    <div>남은 선물: <span id="remaining">0</span></div>
+    <div>레벨: <span id="level">1</span></div>
+    <div>남은 시간: <span id="time">0</span>s</div>
+  </div>
+
+  <canvas id="gameCanvas" width="900" height="506"></canvas>
+
+  <div id="overlay">
+    <div id="msg">
+      <button id="startBtn" class="big">게임 시작</button>
+    </div>
+  </div>
+
+  <script src="js/game.js"></script>
+</body>
+</html>
